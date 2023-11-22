@@ -19,7 +19,7 @@ namespace Tyuiu.GrigorjanAM.Sprint5.Task4.V24
             Console.Title = "Спринт #5 | Выполнил: Григорян А. М. | ИИПб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Потоковый метод записи данных в бинарный файл                     *");
+            Console.WriteLine("* Тема: Чтение данных из текстового файла                                 *");
             Console.WriteLine("* Задание #4                                                              *");
             Console.WriteLine("* Вариант #24                                                             *");
             Console.WriteLine("* Выполнил: Григорян Арсен Мовсесович | ИИПб-23-3                         *");
