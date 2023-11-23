@@ -30,7 +30,7 @@ namespace Tyuiu.GrigorjanAM.Sprint5.Task5.V15
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask5V15.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask5V15.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 

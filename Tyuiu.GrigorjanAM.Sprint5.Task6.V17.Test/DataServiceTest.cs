@@ -12,17 +12,17 @@ namespace Tyuiu.GrigorjanAM.Sprint5.Task6.V17.Test
         public void ValidLoadFromDataFile()
         {
             DataService ds = new DataService();
-            string path = @"D:\Users\djura\source\repos\Tyuiu.GrigorjanAM.Sprint5\Tyuiu.GrigorjanAM.Sprint5.Task6.V17\bin\Debug\InPutDataFileTask6V17.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask6V17.txt";
 
             var res = ds.LoadFromDataFile(path);
-            int wait = 4;
+            int wait = 2;
             Assert.AreEqual(wait, res);
         }
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"D:\Users\djura\source\repos\Tyuiu.GrigorjanAM.Sprint5\Tyuiu.GrigorjanAM.Sprint5.Task6.V17\bin\Debug\InPutDataFileTask6V17.txt";
-            
+            string path = @"C:\DataSprint5\InPutDataFileTask6V17.txt";
+
             FileInfo fi = new FileInfo(path);
             bool fileExists = fi.Exists;
             bool wait = true;
