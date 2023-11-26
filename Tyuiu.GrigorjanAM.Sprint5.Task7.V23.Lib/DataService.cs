@@ -36,6 +36,7 @@ namespace Tyuiu.GrigorjanAM.Sprint5.Task7.V23.Lib
                 File.AppendAllText(pathsave, strline + Environment.NewLine);
                 strline = "";
 
+
             }
             return pathsave;
         }
