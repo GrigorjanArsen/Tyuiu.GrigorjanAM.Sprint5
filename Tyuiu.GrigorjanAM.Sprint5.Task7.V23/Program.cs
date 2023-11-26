@@ -31,8 +31,9 @@ namespace Tyuiu.GrigorjanAM.Sprint5.Task7.V23
             Console.WriteLine("***************************************************************************");
             
             string path = @"C:\DataSprint5\InPutDataFileTask7V23.txt";
-            string pathsave = @"C:\DataSprint5\OutPutDataFileTask7V23.txt";
-            
+            string pathsave = @"D:\Users\djura\source\repos\Tyuiu.GrigorjanAM.Sprint5\Tyuiu.GrigorjanAM.Sprint5.Task7.V23\bin\Debug\OutPutFileTask7V23.txt";
+
+
             Console.WriteLine("Данные находятся в файле: " + path);
 
             Console.WriteLine("***************************************************************************");
